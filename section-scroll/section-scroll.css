@@ -1,0 +1,30 @@
+.section-scroll-controller {
+  position: fixed;
+  right: 0;
+  top: 47.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-scroll-controller-button {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: black;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.section-scroll-controller-button:last-of-type {
+  margin-bottom: 0;
+}
+
+.fullpage {
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  scroll-snap-align: start;
+}

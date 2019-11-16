@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+}
+
+.cover-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-1 {
+  background-color: #ff8ba7;
+}
+
+.color-2 {
+  background-color: #ffc6c7;
+}
+
+.color-3 {
+  background-color: #faeee7;
+}
